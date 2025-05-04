@@ -1,8 +1,8 @@
+use crate::internal_prelude::*;
 use derive_more::Display;
 use itertools::Itertools;
 use std::{collections::HashSet, fmt};
 use tokio::sync::broadcast;
-use crate::internal_prelude::*;
 
 lazy_static::lazy_static! {
   static ref SERVER_RESTART_CHANNEL: broadcast::Sender::<()> = broadcast::channel::<()>(1).0;

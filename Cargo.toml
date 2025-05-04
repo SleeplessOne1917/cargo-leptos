@@ -92,6 +92,7 @@ cargo-generate = "0.22"
 wasm-opt = "0.116.1"
 ignore = "0.4.23"
 walkdir = "2.5"
+package_json_schema = "0.3.0"
 
 [dev-dependencies]
 insta = { version = "1.42.1", features = ["yaml"] }

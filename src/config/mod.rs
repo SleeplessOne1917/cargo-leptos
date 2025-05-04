@@ -8,6 +8,7 @@ mod dotenvs;
 mod end2end;
 mod hash_file;
 mod lib_package;
+mod package_json;
 mod profile;
 mod project;
 mod style;
